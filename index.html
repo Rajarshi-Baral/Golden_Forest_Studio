@@ -22,7 +22,7 @@
 
 
   <body>
-
+    <div id="preloader"></div>
     <div class="sidebar">
         <a href="https://www.facebook.com/profile.php?id=100087507804075#" target="_blank">
             <i class="fa-brands fa-facebook " style="color: white;"></i></a>
@@ -34,12 +34,11 @@
             <i class="fa-brands fa-whatsapp" style="color: white;"></i></a>
     </div>
 
-        <div class="side_top">
+    <div class="side_top">
         <a href="#">
-            <i class="fa-solid fa-chevron-up fa-xl" style="color: white;"></i>
+            <i class="fa-solid fa-chevron-up fa-xl"></i>
         </a>
     </div>
-
     
     <div class="home">
       <h1>Welcome to Golden Forest Studio</h1>
@@ -56,13 +55,21 @@
         <img src="Images/logo.jpg" alt="Golden Forest Studio Logo" />
       </a>
       <div class="nav-links">
-        <a href="#" id="homeButton" class="active">Home</a>
-        <a href="services.html">Services</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="about.html">About</a>
-        <a href="blog.html">Blog</a>
-        <a href="album.html">Album</a>
-        <a href="contact.html">Contact Us</a>
+        <a href="#" id="homeButton" class="main-nav active ">Home</a>
+            <!-- Services with Submenu -->
+        <div class="dropdown">
+          <a href="services.html" class="main-nav dropbtn">Services</a>
+          <div class="dropdown-content">
+              <a href="Services_Panel/photography.html">Photography</a>
+              <a href="Services_Panel/videography.html">Videography</a>
+              <a href="Services_Panel/drone.html">Drone Shoot</a>
+          </div>
+        </div>
+        <a href="portfolio.html" class="main-nav">Portfolio</a>
+        <a href="about.html" class="main-nav">About</a>
+        <a href="blog.html" class="main-nav">Blog</a>
+        <a href="album.html" class="main-nav">Album</a>
+        <a href="contact.html" class="main-nav">Contact Us</a>
       </div>
     </div>
 
@@ -85,7 +92,7 @@
         </div>
         <div class="scnd_clmn">
           <a href="#" id="homeButton">
-            <img src="Images/logo.jpg" alt="logo">
+            <img src="Images/logo2.jpg" alt="logo">
           </a>
           <a href="#" id="homeButton"><h3>Golden Forest Studio</h3></a>
           <p>A creative studio specializing in photography, videography, and design.</p>

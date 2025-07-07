@@ -14,3 +14,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Attach the click event listener to the element
     topElement.addEventListener('click', scrollToTop);
 });
+
+// Preloader functionality
+  var loader = document.getElementById("preloader");
+
+  window. addEventListener ("load", function () {
+  loader.style.display = "none"
+  
+  I})
