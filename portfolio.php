@@ -63,7 +63,6 @@
           <div class="dropdown-content">
               <a href="Services_Panel/photography.html">Photography</a>
               <a href="Services_Panel/videography.html">Videography</a>
-              <a href="Services_Panel/drone.html">Drone Shoot</a>
           </div>
         </div>
         <a href="#" class="main-nav active">Portfolio</a>
@@ -75,9 +74,19 @@
     </div>
 
 
-    <div class="demo">
-      <h2>demo</h2>
-    </div>
+<div class="gallery">
+  <?php
+    $imageExtensions = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
+    $files = scandir('portfolio/uploads/');
+    foreach ($files as $file) {
+      $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
+      if (in_array($ext, $imageExtensions)) {
+        echo "<div class='img-box'><img src='portfolio/uploads/$file' alt='Gallery Image'></div>";
+      }
+    }
+  ?>
+</div>
+
 
     <div class="footer">
       <div class="frst_row">

@@ -314,8 +314,29 @@ html {
   color: #c6c6c6;
 }
 
-.demo {
-    height: 100vh;
+.google-form-wrapper {
+  max-width: 800px;
+  height: 80vh; /* Fixed height */
+  margin: 50px auto;
+  border-radius: 12px;
+  overflow: auto; /* Enable scroll */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+}
+
+/* Optional: internal padding or spacing inside scroll */
+.google-form-container {
+  padding: 0; /* Removed padding to avoid double scrollbars */
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Full height form inside scrollable wrapper */
+.google-form-container iframe {
+  border: none;
+  width: 100%;
+  height: 2160px; /* Actual height of form content */
+  display: block;
 }
 
 

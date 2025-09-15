@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #89f7fe, #66a6ff);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  width: 350px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 15px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button {
+  width: 95%;
+  padding: 10px;
+  background: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+p.error {
+  color: red;
+}
+
+p.success {
+  color: green;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 30px;
+}
+.img-box img {
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+}

@@ -382,3 +382,17 @@ html {
     color: white;
     text-decoration: underline;
 } 
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 30px;
+}
+.img-box img {
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+}
