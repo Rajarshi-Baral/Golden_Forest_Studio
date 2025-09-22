@@ -31,6 +31,10 @@
             <i class="fab fa-instagram"></i></a>
         <a href="https://www.youtube.com/@goldenforeststudio" target="_blank" style=" color: white;">
             <i class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/golden-forest-studio-29b247384/" target="_blank">
+            <i class="fa-brands fa-linkedin" style="color: white;"></i></a>
+        <a href="https://in.pinterest.com/goldenforeststudios303/" target="_blank">
+            <i class="fa-brands fa-pinterest" style="color: white;"></i></a>
         <a href="https://wa.me/+919332431923" target="_blank">
             <i class="fa-brands fa-whatsapp" style="color: white;"></i></a>
     </div>

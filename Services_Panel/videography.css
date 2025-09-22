@@ -92,6 +92,35 @@ html {
   justify-content: center;
   text-align: center;
 }
+/* YouTube button */
+.youtube {
+    background-color: #FF0000; /* YouTube red */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: all 0.4s ease;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    margin-bottom: 5%;
+    display: inline-flex; /* flex to align icon + text */
+    align-items: center;
+    gap: 10px; /* space between logo and text */
+    font-weight: bold;
+}
+
+/* Hover effect */
+.youtube:hover {
+    background-color: white;
+    color: #FF0000;
+    border: 1px solid #FF0000;
+}
+
+/* YouTube icon style */
+.youtube i {
+    font-size: 1.5rem;
+}
 
 .bg-video {
   position: absolute;

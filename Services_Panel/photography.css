@@ -130,6 +130,7 @@ html {
     transition: background-color 0.4s ease;
     border: 1px solid transparent;
     text-transform: capitalize;
+    margin-bottom: 5%;
 }
 
 .button:hover {
@@ -254,7 +255,8 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 3%;
+  /* margin-bottom: 5%; */
 }
 
 .qk-links .cntnt {
@@ -283,6 +285,7 @@ html {
   backdrop-filter: blur(4px);
 }
 
+/* hover effect */
 .qk-links .cntnt a:hover {
   background: #ffffff;
   color: #1e1e1e;
@@ -290,7 +293,15 @@ html {
   box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
 }
 
-.srvc-img {
+/* active filter style */
+.qk-links .cntnt a.active {
+  background: #ffffff;
+  color: #1e1e1e;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* .srvc-img {
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -305,9 +316,9 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.srvc-img .glr-srvc .txt {
+.couple .txt {
     width: 75%;
     text-align: center;
     margin-top: 2%;
@@ -316,20 +327,22 @@ html {
     flex-direction: column;
 }
 
-.srvc-img .glr-srvc .txt h2 {
+.couple .txt h2 {
     font-size: 2.5rem;
     margin-bottom: 2%;
     text-transform: capitalize;
-    color: white;
+    color: #FFD700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
-.srvc-img .glr-srvc .txt p {
+.couple .txt p {
     font-size: 1.2rem;
     color: white;
     margin-bottom: 2%;
 }
 
-.srvc-img .glr-srvc .golden-img {
+/* .srvc-img .glr-srvc .golden-img {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -356,7 +369,7 @@ html {
     object-fit: cover;
     margin-bottom: 3%;
     cursor: pointer;
-}
+} */
 
 /* Modal Styles */
 .modal {
